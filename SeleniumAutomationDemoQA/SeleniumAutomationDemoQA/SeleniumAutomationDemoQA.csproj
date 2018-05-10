@@ -41,16 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="POM\PageObjects\DemoQaHome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utitlities\BrowserFactory.cs" />
     <Compile Include="Utitlities\DriverClass.cs" />
+    <Compile Include="Utitlities\ExplicitElementWait.cs" />
     <Compile Include="Utitlities\OneTimeClass.cs" />
     <Compile Include="Utitlities\ProjectPath.cs" />
     <Compile Include="Utitlities\TestBase.cs" />
     <Compile Include="Utitlities\TestInit.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="POM\PageObjects\" />
     <Folder Include="POM\TestCases\" />
   </ItemGroup>
   <ItemGroup>
