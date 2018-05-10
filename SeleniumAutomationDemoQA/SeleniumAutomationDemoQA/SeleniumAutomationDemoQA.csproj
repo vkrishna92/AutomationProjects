@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="POM\PageObjects\DemoQaHome.cs" />
+    <Compile Include="POM\TestCases\TC_HomePage_ScreenValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utitlities\BrowserFactory.cs" />
     <Compile Include="Utitlities\DriverClass.cs" />
@@ -51,9 +52,7 @@
     <Compile Include="Utitlities\TestBase.cs" />
     <Compile Include="Utitlities\TestInit.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="POM\TestCases\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <PackageReference Include="NUnit">
       <Version>3.10.1</Version>
@@ -70,6 +69,9 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver">
       <Version>2.38.0.1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

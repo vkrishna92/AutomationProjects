@@ -26,7 +26,7 @@ namespace SeleniumAutomationDemoQA.Utitlities
         [TearDown]
         public void closure()
         {
-
+            driver.Close();
         }
     }
 }
