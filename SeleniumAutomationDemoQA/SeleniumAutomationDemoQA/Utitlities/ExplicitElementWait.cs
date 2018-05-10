@@ -35,7 +35,7 @@ namespace SeleniumAutomationDemoQA.Utitlities
         public static void TextToBePresentInElement(IWebElement element, string element_text)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
-            wait.Until(ExpectedConditions.TextToBePresentInElement(element,element_text);
+            wait.Until(ExpectedConditions.TextToBePresentInElement(element,element_text));
         }
         public static void TextToBePresentInElementLocated(By elementObject,string element_text)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,7 @@ namespace SeleniumAutomationDemoQA.Utitlities
             driver.Manage().Window.Maximize();
             //handle login here 
             //Enter user credentials and Login 
+            ExplicitElementWait.TextToBePresentInElementLocated(By.XPath(".//*[@id='post-9']/header/h1"), "Home");
 
         }
     }
