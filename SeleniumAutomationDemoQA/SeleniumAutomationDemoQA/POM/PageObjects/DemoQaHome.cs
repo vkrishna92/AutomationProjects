@@ -20,6 +20,10 @@ namespace SeleniumAutomationDemoQA.POM.PageObjects
         [FindsBy(How = How.Id, Using = "")]
         public IWebElement pageHeading;
 
+        [FindsBy(How = How.LinkText, Using = "Registration")]
+        public IWebElement registration;
+
+
 
     }
 }

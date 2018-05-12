@@ -12,9 +12,10 @@ namespace SeleniumAutomationDemoQA.Utitlities
         [OneTimeSetUp]
         public void SetupConfig()
         {
-            driver = BrowserFactory.getInstance("chrome");
+            //driver = BrowserFactory.getInstance("chrome");
             //configuring reports
             //screenshot paths
+            Console.WriteLine("OneTimeSetUp");
 
         }
         [OneTimeTearDown]
