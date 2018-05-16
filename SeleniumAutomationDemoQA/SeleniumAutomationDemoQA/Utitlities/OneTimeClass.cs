@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace SeleniumAutomationDemoQA.Utitlities
 {
+    
+    [SetUpFixture]
     class OneTimeClass:DriverClass
-    {
+    {        
         [OneTimeSetUp]
         public void SetupConfig()
         {
             //driver = BrowserFactory.getInstance("chrome");
             //configuring reports
-            //screenshot paths
-            Console.WriteLine("OneTimeSetUp");
-
+            //screenshot paths          
+            driver = BrowserFactory.getInstance("chrome");
         }
         [OneTimeTearDown]
         public void TearDownConfig()

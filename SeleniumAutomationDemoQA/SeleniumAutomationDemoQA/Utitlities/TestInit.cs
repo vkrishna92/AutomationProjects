@@ -14,7 +14,7 @@ namespace SeleniumAutomationDemoQA.Utitlities
         /// </summary>
         public static void loginManager()
         {
-            driver = BrowserFactory.getInstance("chrome");
+            
             driver.Url = "http://demoqa.com/";
             driver.Manage().Window.Maximize();
             //handle login here 

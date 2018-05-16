@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumAutomationDemoQA.POM.TestCases
 {
-    class TC_HomePage_ScreenValidation:TestBase
+   class TC_HomePage_ScreenValidation:TestBase
     {
         [Test]
         public void ValidateHomePageScreen()

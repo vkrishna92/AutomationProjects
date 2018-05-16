@@ -31,11 +31,13 @@ namespace SeleniumAutomationDemoQA.POM.TestCases
             //register.EnterAboutYourSelf("abc");
             //register.EnterPassword("123");
             //register.ConfirmPassword("123");
-            ((IJavaScriptExecutor)driver).ExecuteScript(
-            "arguments[0].scrollIntoView();", register.firstName);
-            register.profilePicUpload.Click();
+            //((IJavaScriptExecutor)driver).ExecuteScript(
+            //"arguments[0].scrollIntoView();", register.firstName);
+            //register.profilePicUpload.Click();
             register.uploadFile(@"C:\Users\vkris\Desktop\SampleReport.txt");
+            TakeScreenShot.takeScreenshot();
             Thread.Sleep(5000);
+            
         }
     }
 }

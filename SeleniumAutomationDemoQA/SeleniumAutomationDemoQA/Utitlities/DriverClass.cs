@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumAutomationDemoQA.Utitlities
 {
-    class DriverClass
+    public class DriverClass
     {
         public static IWebDriver driver;            
     }

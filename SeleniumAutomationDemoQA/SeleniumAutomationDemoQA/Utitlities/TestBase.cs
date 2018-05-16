@@ -17,11 +17,12 @@ namespace SeleniumAutomationDemoQA.Utitlities
         [SetUp]
         public void setup()
         {
+            
             //Enter URL 
             TestInit.loginManager();
-            
 
             
+
         }
         [TearDown]
         public void closure()
